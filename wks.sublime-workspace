@@ -5,7 +5,7 @@
 		[
 			[
 				"req",
-				"require('setconfs')"
+				"require"
 			]
 		]
 	},
@@ -24,15 +24,15 @@
 		"selected_items":
 		[
 			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
 				"instal",
-				"Package Control: Install Package"
-			],
-			[
-				"insta",
 				"Package Control: Install Package"
 			]
 		],
@@ -40,9 +40,12 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 112.0,
 		"history":
 		[
+			"whoami",
+			"ls",
+			"asd"
 		]
 	},
 	"distraction_free":
@@ -54,12 +57,17 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/xtronda/cprojs/chkBot.js"
-	],
 	"file_history":
 	[
+		"/Users/xtronda/cprojs/chkBot.js/settings/texts.js",
+		"/Users/xtronda/cprojs/chkBot.js/settings/confs.js",
+		"/Users/xtronda/cprojs/chkBot.js/api-core/controls.js",
+		"/Users/xtronda/cprojs/chkBot.js/api-core/genBicoData.js",
+		"/Users/xtronda/cprojs/chkBot.js/index.js",
+		"/Users/xtronda/cprojs/chkBot.js/settings/index.js",
+		"/Users/xtronda/cprojs/chkBot.js/.env",
+		"/Users/xtronda/cprojs/chkBot.js/.gitignore",
+		"/Users/xtronda/cprojs/chkBot.js/api-core/util.js",
 		"/Users/xtronda/cprojs/_fscr/rkcbot/services/config.js",
 		"/Users/xtronda/cprojs/_fscr/rkcbot/ssapi/.env",
 		"/Users/xtronda/cprojs/_fscr/rkcbot/services/.env",
@@ -94,6 +102,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$txts",
+			"$txt",
+			"$conf",
+			"setconfs"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -110,12 +122,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"folders":
-	[
-		{
-			"path": "/Users/xtronda/cprojs/chkBot.js"
-		}
-	],
 	"groups":
 	[
 		{
@@ -157,7 +163,7 @@
 	"menu_visible": true,
 	"output.SublimeLinter":
 	{
-		"height": 0.0
+		"height": 108.0
 	},
 	"output.exec":
 	{
@@ -206,7 +212,7 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 255.0,
