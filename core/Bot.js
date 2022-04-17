@@ -1,10 +1,16 @@
+const TelegramBot = require('node-telegram-bot-api')
+
+// short alias for
+let $pbot = Bot.prototype = {
+    defscope, 
+}
 
 function Bot (_name = 'none', 
                 _token, 
-                    _ops) {
+                    _nops) {
 
-    // * _ops = object native telebot init _ops
-    // * _token = string
+    // _nops = object native telebot init _nops
+    // _token = string
 
     this.name = _name;
     this.uid  = $g.u.genUid();
@@ -27,18 +33,27 @@ function Bot (_name = 'none',
             configurable: true,
             
             get () {
-                return _ops;
+                return _nops;
             }
         }
     })
 }
 
+/* -------------------------- */
+
+function defscope (_name, _defs) {
+    // _defs.
+}
+
+pbot.prototype.createnBot () {
+    return new TelegramBot(_token, _nops)
+}
+
+const ttbot = new Bot('dennis', '', {
+
+})
+
+// * -------------------------- */
+
 module.exports = Bot;
 
-// * -------------------------- *
-
-function defscope (_name, _ops) {
-
-    // * _ops.
-
-}
