@@ -1,7 +1,7 @@
 require('dotenv').config()
 require('./settings').setup() // sets global.$c - confs, sets global.$t - texts
 
-const TelegramBot = require('node-telegram-bot-api')
+const TelegramBot = require('node-telegram-bot-api');
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot($c.botk, { 
